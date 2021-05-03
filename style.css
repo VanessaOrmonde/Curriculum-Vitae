@@ -1,5 +1,5 @@
 
-h1, h2, h3, body, p {
+    h1, h2, h3, body, p {
     margin: 0;
     }
     
@@ -46,6 +46,11 @@ h1, h2, h3, body, p {
     padding: 32px 64px;
     }
 
+    main {
+        display: flex;
+        padding: 40px 70px;
+        }
+    
     .dados {
         display: inline-block;
         margin-bottom: 32px;
@@ -58,12 +63,9 @@ h1, h2, h3, body, p {
         margin-right: 32px;
         }
     
-    main {
-    padding: 40px 70px;
-    }
-
     .coluna-menor {
     margin-top: 48px;
+    width: 288px;
     }
     
     .linha {
@@ -88,6 +90,7 @@ h1, h2, h3, body, p {
     } 
     
     .coluna-menor li {
+    display: flex;
     margin-top: 32px;
     }
     
@@ -97,4 +100,26 @@ h1, h2, h3, body, p {
 
     .formacao {
         margin-top: 32px;
+    }
+
+    .coluna-maior{
+    margin-left: 24px;    
+    }
+
+    .habilidades h2{
+    font-size: 54px; 
+    margin-bottom: 20px;   
+    }
+
+    .habilidades {
+        background-color: white;
+        border-radius: 16px;
+        padding: 24px;
+        margin: 12px;
+        width: 288px;
+    }
+
+    .habilidade h3 {
+    font-size: 30;
+    font-weight: bold;
     }
