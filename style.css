@@ -81,6 +81,10 @@
     .formacao .linha {
         border-color: #d17104;
     }
+
+    .cursos .linha {
+        border-color:#d17104
+    }
     
     .coluna-menor img {
     width: 40px;
@@ -102,16 +106,26 @@
         margin-top: 32px;
     }
 
+    .cursos {
+        margin-top: 32px;
+    }
+
     .coluna-maior{
     margin-left: 24px;    
     }
 
-    .habilidades h2{
-    font-size: 54px; 
-    margin-bottom: 20px;   
+    .habilidades {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .habilidades {
+    .coluna-maior h2{
+    font-size: 42px; 
+    margin-bottom: 20px;   
+    margin-left: 16px;
+    }
+
+    .habilidade {
         background-color: white;
         border-radius: 16px;
         padding: 24px;
@@ -120,6 +134,35 @@
     }
 
     .habilidade h3 {
-    font-size: 30;
-    font-weight: bold;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        }
+
+    .habilidade p {
+        font-size: 20px;
     }
+
+    .progresso {
+        width: 100%;
+        display: flex;
+    }
+
+    .barra {
+        width: 20%;
+        margin-top: 8px;
+        height: 4px;
+        background-color: #4200ff;
+    }
+
+    .incompleto {
+        opacity: 0.2;
+    }
+
+    .habilidade li {
+        margin-top: 30px;
+    }
+
+   .habilidade li:first-child {
+       margin-top: 0px;
+   }
