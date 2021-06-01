@@ -166,3 +166,10 @@
    .habilidade li:first-child {
        margin-top: 0px;
    }
+
+   footer {
+       background-color: #14004d;
+       color: white;
+       padding: 57.6px;
+       text-align: center;
+   }
